@@ -50,7 +50,7 @@ echo "server=1" >> kingscoin.conf
 echo "daemon=1" >> kingscoin.conf
 echo "logtimestamps=1" >> kingscoin.conf
 echo "maxconnections=256" >> kingscoin.conf
-echo "port=6942" >> kingscoin.conf
+echo "port=1717" >> kingscoin.conf
 mv kingscoin.conf .kingscoin
 
   
