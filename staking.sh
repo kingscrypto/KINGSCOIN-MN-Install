@@ -37,7 +37,7 @@ sudo ufw limit ssh/tcp
 sudo ufw logging on
 echo "y" | sudo ufw enable
 sudo ufw status
-sudo ufw allow 1717/tcp
+sudo ufw allow 1777/tcp
   
 cd
 mkdir -p .kingscoin
@@ -50,7 +50,7 @@ echo "server=1" >> kingscoin.conf
 echo "daemon=1" >> kingscoin.conf
 echo "logtimestamps=1" >> kingscoin.conf
 echo "maxconnections=256" >> kingscoin.conf
-echo "port=1717" >> kingscoin.conf
+echo "port=1777" >> kingscoin.conf
 mv kingscoin.conf .kingscoin
 
   
