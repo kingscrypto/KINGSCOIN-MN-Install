@@ -49,13 +49,13 @@ Close your wallet and open the kingscoin Appdata folder. Its location depends on
 In your appdata folder, open masternode.conf with a text editor and add a new line in this format to the bottom of the file:
 
 ```bash
-masternodename ipaddress:1717 genkey collateralTxID outputID
+masternodename ipaddress:1777 genkey collateralTxID outputID
 ```
 
 An example would be
 
 ```
-mn1 127.0.0.2:1717 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+mn1 127.0.0.2:1777 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 ```
 
 _masternodename_ is a name you choose, _ipaddress_ is the public IP of your VPS, masternodeprivatekey is the output from `masternode genkey`, and _collateralTxID_ & _outputID_ come from `masternode outputs`. Please note that _masternodename_ must not contain any spaces, and should not contain any special characters.
@@ -93,10 +93,6 @@ cd /usr/local/bin
 ```
 
 
-### If you have any issues, please be sure to join our Discord and ask for support:
-### https://discord.gg/9nzt37V
-
-
 ## For Windows setups, use this config in your masternode.conf or kingscoin.conf (depending on if you are using a VPS or local wallet)
 
 ```bash
@@ -109,7 +105,7 @@ daemon=1
 logtimestamps=1
 maxconnections=256
 externalip=<IPADDRESS>
-masternodeaddr=<IPADDRESS>:6942
+masternodeaddr=<IPADDRESS>:1777
 masternodeprivkey=<MASTERNODE GENKEY>
 masternode=1
 ```
