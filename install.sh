@@ -216,7 +216,7 @@ if [[ ("$UFW" == "y" || "$UFW" == "Y" || "$UFW" == "") ]]; then
   ufw default deny incoming
   ufw default allow outgoing
   ufw allow ssh
-  ufw allow 1717/tcp
+  ufw allow 1777/tcp
   yes | ufw enable
 fi
 
@@ -250,7 +250,7 @@ daemon=1
 logtimestamps=1
 maxconnections=256
 externalip=${IP}
-bind=${IP}:1717
+bind=${IP}:1777
 masternodeaddr=${IP}
 masternodeprivkey=${KEY}
 masternode=1
