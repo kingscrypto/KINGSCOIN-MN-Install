@@ -254,6 +254,11 @@ bind=${IP}:1777
 masternodeaddr=${IP}
 masternodeprivkey=${KEY}
 masternode=1
+addnode=80.211.174.239
+addnode=80.211.45.25
+addnode=80.211.40.41
+addnode=80.211.177.233
+addnode=185.43.210.213
 EOL
 chmod 0600 $USERHOME/.kingscoin/kingscoin.conf
 chown -R $USER:$USER $USERHOME/.kingscoin
