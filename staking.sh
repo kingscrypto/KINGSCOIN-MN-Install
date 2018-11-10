@@ -50,7 +50,13 @@ echo "server=1" >> kingscoin.conf
 echo "daemon=1" >> kingscoin.conf
 echo "logtimestamps=1" >> kingscoin.conf
 echo "maxconnections=256" >> kingscoin.conf
+echo "addnode=80.211.174.239" >> kingscoin.conf
+echo "addnode=80.211.45.25" >> kingscoin.conf
+echo "addnode=80.211.40.41" >> kingscoin.conf
+echo "addnode=80.211.177.233" >> kingscoin.conf
+echo "addnode=185.43.210.213" >> kingscoin.conf
 echo "port=1777" >> kingscoin.conf
+
 mv kingscoin.conf .kingscoin
 
   
